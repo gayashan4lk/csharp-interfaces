@@ -34,7 +34,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                     polygonType, ex.GetType().Name);
                 Console.WriteLine();
             }
-
+            // test
         }
     }
 }
