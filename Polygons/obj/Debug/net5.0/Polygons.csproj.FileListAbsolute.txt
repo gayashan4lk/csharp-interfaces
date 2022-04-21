@@ -1,0 +1,5 @@
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Polygons\obj\Debug\net5.0\Polygons.csproj.AssemblyReference.cache
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Polygons\obj\Debug\net5.0\Polygons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Polygons\obj\Debug\net5.0\Polygons.AssemblyInfoInputs.cache
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Polygons\obj\Debug\net5.0\Polygons.AssemblyInfo.cs
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Polygons\obj\Debug\net5.0\Polygons.csproj.CoreCompileInputs.cache
