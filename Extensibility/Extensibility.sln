@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonReader.Interface", "P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleViewer", "PeopleViewer\PeopleViewer.csproj", "{92454235-3ABD-4D1F-8B85-B212A2D96AF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonReader.Service", "PersonReader.Service\PersonReader.Service.csproj", "{CE5E8412-DC20-465F-8AAE-59126538C441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonReader.Service", "PersonReader.Service\PersonReader.Service.csproj", "{CE5E8412-DC20-465F-8AAE-59126538C441}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonReader.CSV", "..\..\..\..\Videos\6. C# Interfaces\Ex Files\files\03\demos\before\Extensibility\PersonReader.CSV\PersonReader.CSV.csproj", "{2EDEC154-9E6E-4D64-9D61-F6F44A1B00FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonReader.SQL", "..\..\..\..\Videos\6. C# Interfaces\Ex Files\files\03\demos\before\Extensibility\PersonReader.SQL\PersonReader.SQL.csproj", "{1D2C8295-1EDE-452D-ABD0-69B61210C929}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,14 @@ Global
 		{CE5E8412-DC20-465F-8AAE-59126538C441}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE5E8412-DC20-465F-8AAE-59126538C441}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE5E8412-DC20-465F-8AAE-59126538C441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDEC154-9E6E-4D64-9D61-F6F44A1B00FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDEC154-9E6E-4D64-9D61-F6F44A1B00FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDEC154-9E6E-4D64-9D61-F6F44A1B00FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDEC154-9E6E-4D64-9D61-F6F44A1B00FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2C8295-1EDE-452D-ABD0-69B61210C929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2C8295-1EDE-452D-ABD0-69B61210C929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2C8295-1EDE-452D-ABD0-69B61210C929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2C8295-1EDE-452D-ABD0-69B61210C929}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +57,8 @@ Global
 		{D9161871-8793-4A4C-855C-8F1916B33F99} = {9996915A-5767-4D4F-B662-3BD143AD5EDA}
 		{A765E7F9-A6C2-44ED-A52C-63CE1E53DABA} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
 		{CE5E8412-DC20-465F-8AAE-59126538C441} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
+		{2EDEC154-9E6E-4D64-9D61-F6F44A1B00FA} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
+		{1D2C8295-1EDE-452D-ABD0-69B61210C929} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {313631F0-55E2-4C7B-9684-7EA8D87581E0}
