@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.csproj": {}
+    "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons\\Polygons.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons.Library\\Polygons.Library.csproj": {
+    "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.Library\\Polygons.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons.Library\\Polygons.Library.csproj",
+        "projectUniqueName": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.Library\\Polygons.Library.csproj",
         "projectName": "Polygons.Library",
-        "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons.Library\\Polygons.Library.csproj",
+        "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.Library\\Polygons.Library.csproj",
         "packagesPath": "C:\\Users\\ErangaGayashanBISTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons.Library\\obj\\",
+        "outputPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ErangaGayashanBISTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.csproj": {
+    "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons\\Polygons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.csproj",
+        "projectUniqueName": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons\\Polygons.csproj",
         "projectName": "Polygons",
-        "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.csproj",
+        "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons\\Polygons.csproj",
         "packagesPath": "C:\\Users\\ErangaGayashanBISTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\obj\\",
+        "outputPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ErangaGayashanBISTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons.Library\\Polygons.Library.csproj": {
-                "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons.Library\\Polygons.Library.csproj"
+              "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.Library\\Polygons.Library.csproj": {
+                "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.Library\\Polygons.Library.csproj"
               }
             }
           }

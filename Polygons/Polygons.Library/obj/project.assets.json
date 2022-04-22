@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons.Library\\Polygons.Library.csproj",
+      "projectUniqueName": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.Library\\Polygons.Library.csproj",
       "projectName": "Polygons.Library",
-      "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons.Library\\Polygons.Library.csproj",
+      "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.Library\\Polygons.Library.csproj",
       "packagesPath": "C:\\Users\\ErangaGayashanBISTEC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons.Library\\obj\\",
+      "outputPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Polygons\\Polygons.Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ErangaGayashanBISTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
