@@ -11,32 +11,29 @@ namespace PeopleViewer.Controllers
     {
         public IActionResult UseService()
         {
-            IPersonReader reader = new ServiceReader();
-            //var people = reader.GetPeople();
-            IEnumerable<Person> people = reader.GetPeople();
-
-            ViewData["ReaderType"] = reader.GetType().ToString();
             ViewData["Title"] = "Using a Web Service";
-            return View("Index", people);
+            IPersonReader reader = new ServiceReader();
+            return PopulatePeopleView(reader);
         }
 
         public IActionResult UseCSV()
         {
-            IPersonReader reader = new CSVReader();
-            IEnumerable<Person> people = reader.GetPeople();
-
-            ViewData["ReaderType"] = reader.GetType().ToString();
             ViewData["Title"] = "Using a CSV File";
-            return View("Index", people);
+            IPersonReader reader = new CSVReader();
+            return PopulatePeopleView(reader);
         }
 
         public IActionResult UseSQL()
         {
-            IPersonReader reader = new SQLReader();
-            IEnumerable<Person> people = reader.GetPeople();
-
-            ViewData["ReaderType"] = reader.GetType().ToString();
             ViewData["Title"] = "Using a SQL Database";
+            IPersonReader reader = new SQLReader();
+            return PopulatePeopleView(reader);
+        }
+
+        private IActionResult PopulatePeopleView(IPersonReader reader)
+        {
+            IEnumerable<Person> people = reader.GetPeople();
+            ViewData["ReaderType"] = reader.GetType().ToString();
             return View("Index", people);
         }
     }
