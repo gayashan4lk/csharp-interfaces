@@ -1,0 +1,12 @@
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\FutureProofing\Common\bin\Debug\net5.0\Common.deps.json
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\FutureProofing\Common\bin\Debug\net5.0\Common.dll
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\FutureProofing\Common\bin\Debug\net5.0\ref\Common.dll
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\FutureProofing\Common\bin\Debug\net5.0\Common.pdb
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\FutureProofing\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\FutureProofing\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\FutureProofing\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\FutureProofing\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\FutureProofing\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\FutureProofing\Common\obj\Debug\net5.0\Common.dll
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\FutureProofing\Common\obj\Debug\net5.0\ref\Common.dll
+C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\FutureProofing\Common\obj\Debug\net5.0\Common.pdb

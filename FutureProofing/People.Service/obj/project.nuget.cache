@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "RHwiAJl0wAv8TPYTW8VYmzIPeoDcskLYdXS31FESa8ItXcrCUxBiqHdKy/IqM3Q3DdFDgQcIkFltABfYOtluYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\FutureProofing\\People.Service\\People.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ErangaGayashanBISTEC\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ErangaGayashanBISTEC\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ErangaGayashanBISTEC\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\ErangaGayashanBISTEC\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\ErangaGayashanBISTEC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\ErangaGayashanBISTEC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
