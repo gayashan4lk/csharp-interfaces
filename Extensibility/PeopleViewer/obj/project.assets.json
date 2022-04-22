@@ -403,6 +403,22 @@
           "bin/placeholder/PersonReader.CSV.dll": {}
         }
       },
+      "PersonReader.Factory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PersonReader.CSV": "1.0.0",
+          "PersonReader.Interface": "1.0.0",
+          "PersonReader.SQL": "1.0.0",
+          "PersonReader.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PersonReader.Factory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PersonReader.Factory.dll": {}
+        }
+      },
       "PersonReader.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1026,6 +1042,11 @@
       "path": "../../../../../Videos/6. C# Interfaces/Ex Files/files/03/demos/before/Extensibility/PersonReader.CSV/PersonReader.CSV.csproj",
       "msbuildProject": "../../../../../Videos/6. C# Interfaces/Ex Files/files/03/demos/before/Extensibility/PersonReader.CSV/PersonReader.CSV.csproj"
     },
+    "PersonReader.Factory/1.0.0": {
+      "type": "project",
+      "path": "../PersonReader.Factory/PersonReader.Factory.csproj",
+      "msbuildProject": "../PersonReader.Factory/PersonReader.Factory.csproj"
+    },
     "PersonReader.Interface/1.0.0": {
       "type": "project",
       "path": "../PersonReader.Interface/PersonReader.Interface.csproj",
@@ -1044,10 +1065,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "PersonReader.CSV >= 1.0.0",
-      "PersonReader.Interface >= 1.0.0",
-      "PersonReader.SQL >= 1.0.0",
-      "PersonReader.Service >= 1.0.0"
+      "PersonReader.Factory >= 1.0.0",
+      "PersonReader.Interface >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1077,17 +1096,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Extensibility\\PersonReader.Factory\\PersonReader.Factory.csproj": {
+              "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Extensibility\\PersonReader.Factory\\PersonReader.Factory.csproj"
+            },
             "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Extensibility\\PersonReader.Interface\\PersonReader.Interface.csproj": {
               "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Extensibility\\PersonReader.Interface\\PersonReader.Interface.csproj"
-            },
-            "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Extensibility\\PersonReader.Service\\PersonReader.Service.csproj": {
-              "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Extensibility\\PersonReader.Service\\PersonReader.Service.csproj"
-            },
-            "C:\\Users\\ErangaGayashanBISTEC\\Videos\\6. C# Interfaces\\Ex Files\\files\\03\\demos\\before\\Extensibility\\PersonReader.CSV\\PersonReader.CSV.csproj": {
-              "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\Videos\\6. C# Interfaces\\Ex Files\\files\\03\\demos\\before\\Extensibility\\PersonReader.CSV\\PersonReader.CSV.csproj"
-            },
-            "C:\\Users\\ErangaGayashanBISTEC\\Videos\\6. C# Interfaces\\Ex Files\\files\\03\\demos\\before\\Extensibility\\PersonReader.SQL\\PersonReader.SQL.csproj": {
-              "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\Videos\\6. C# Interfaces\\Ex Files\\files\\03\\demos\\before\\Extensibility\\PersonReader.SQL\\PersonReader.SQL.csproj"
             }
           }
         }

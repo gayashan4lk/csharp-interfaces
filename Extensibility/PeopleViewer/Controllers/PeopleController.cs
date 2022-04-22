@@ -1,37 +1,35 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PersonReader.CSV;
+using PersonReader.Factory;
 using PersonReader.Interface;
-using PersonReader.Service;
-using PersonReader.SQL;
 using System.Collections.Generic;
 
 namespace PeopleViewer.Controllers
 {
     public class PeopleController : Controller
     {
+        private ReaderFactory factory = new ReaderFactory();
+
         public IActionResult UseService()
         {
             ViewData["Title"] = "Using a Web Service";
-            IPersonReader reader = new ServiceReader();
-            return PopulatePeopleView(reader);
+            return PopulatePeopleView("Service");
         }
 
         public IActionResult UseCSV()
         {
             ViewData["Title"] = "Using a CSV File";
-            IPersonReader reader = new CSVReader();
-            return PopulatePeopleView(reader);
+            return PopulatePeopleView("CSV");
         }
 
         public IActionResult UseSQL()
         {
             ViewData["Title"] = "Using a SQL Database";
-            IPersonReader reader = new SQLReader();
-            return PopulatePeopleView(reader);
+            return PopulatePeopleView("SQL");
         }
 
-        private IActionResult PopulatePeopleView(IPersonReader reader)
+        private IActionResult PopulatePeopleView(string readerType)
         {
+            IPersonReader reader = factory.GetReader(readerType);
             IEnumerable<Person> people = reader.GetPeople();
             ViewData["ReaderType"] = reader.GetType().ToString();
             return View("Index", people);

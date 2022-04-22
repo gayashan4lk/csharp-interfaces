@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonReader.CSV", "..\..\.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonReader.SQL", "..\..\..\..\Videos\6. C# Interfaces\Ex Files\files\03\demos\before\Extensibility\PersonReader.SQL\PersonReader.SQL.csproj", "{1D2C8295-1EDE-452D-ABD0-69B61210C929}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonReader.Factory", "PersonReader.Factory\PersonReader.Factory.csproj", "{A8101699-7DFD-474E-AB60-BFDD00A59067}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{1D2C8295-1EDE-452D-ABD0-69B61210C929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D2C8295-1EDE-452D-ABD0-69B61210C929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D2C8295-1EDE-452D-ABD0-69B61210C929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8101699-7DFD-474E-AB60-BFDD00A59067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8101699-7DFD-474E-AB60-BFDD00A59067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8101699-7DFD-474E-AB60-BFDD00A59067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8101699-7DFD-474E-AB60-BFDD00A59067}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{CE5E8412-DC20-465F-8AAE-59126538C441} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
 		{2EDEC154-9E6E-4D64-9D61-F6F44A1B00FA} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
 		{1D2C8295-1EDE-452D-ABD0-69B61210C929} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
+		{A8101699-7DFD-474E-AB60-BFDD00A59067} = {EBDE7883-D671-4736-8FA6-87699F60D81B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {313631F0-55E2-4C7B-9684-7EA8D87581E0}
