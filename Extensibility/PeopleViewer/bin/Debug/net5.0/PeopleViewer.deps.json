@@ -34,6 +34,7 @@
       "PeopleViewer/1.0.0": {
         "dependencies": {
           "PersonReader.Interface": "1.0.0",
+          "PersonReader.Service": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -331,6 +332,17 @@
         },
         "compile": {
           "PersonReader.Interface.dll": {}
+        }
+      },
+      "PersonReader.Service/1.0.0": {
+        "dependencies": {
+          "PersonReader.Interface": "1.0.0"
+        },
+        "runtime": {
+          "PersonReader.Service.dll": {}
+        },
+        "compile": {
+          "PersonReader.Service.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2040,6 +2052,11 @@
       "sha512": ""
     },
     "PersonReader.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersonReader.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

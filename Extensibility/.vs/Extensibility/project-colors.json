@@ -15,7 +15,12 @@
       "ProjectGuid": "a765e7f9-a6c2-44ed-a52c-63ce1e53daba",
       "DisplayName": "PersonReader.Interface",
       "ColorIndex": 2
+    },
+    "ce5e8412-dc20-465f-8aae-59126538c441": {
+      "ProjectGuid": "ce5e8412-dc20-465f-8aae-59126538c441",
+      "DisplayName": "PersonReader.Service",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

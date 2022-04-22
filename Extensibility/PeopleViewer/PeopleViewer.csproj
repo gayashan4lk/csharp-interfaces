@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PersonReader.Interface\PersonReader.Interface.csproj" />
+    <ProjectReference Include="..\PersonReader.Service\PersonReader.Service.csproj" />
   </ItemGroup>
 
   <Target Name="CopyDataFiles" AfterTargets="Build">

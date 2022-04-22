@@ -2,7 +2,6 @@ C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Extensibility\Pe
 C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Extensibility\PersonReader.Interface\bin\Debug\net5.0\PersonReader.Interface.dll
 C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Extensibility\PersonReader.Interface\bin\Debug\net5.0\ref\PersonReader.Interface.dll
 C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Extensibility\PersonReader.Interface\bin\Debug\net5.0\PersonReader.Interface.pdb
-C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Extensibility\PersonReader.Interface\obj\Debug\net5.0\PersonReader.Interface.csproj.AssemblyReference.cache
 C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Extensibility\PersonReader.Interface\obj\Debug\net5.0\PersonReader.Interface.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Extensibility\PersonReader.Interface\obj\Debug\net5.0\PersonReader.Interface.AssemblyInfoInputs.cache
 C:\Users\ErangaGayashanBISTEC\source\learning\csharp-interfaces\Extensibility\PersonReader.Interface\obj\Debug\net5.0\PersonReader.Interface.AssemblyInfo.cs

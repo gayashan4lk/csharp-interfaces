@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/PersonReader.Interface.dll": {}
         }
+      },
+      "PersonReader.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PersonReader.Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PersonReader.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PersonReader.Service.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../PersonReader.Interface/PersonReader.Interface.csproj",
       "msbuildProject": "../PersonReader.Interface/PersonReader.Interface.csproj"
+    },
+    "PersonReader.Service/1.0.0": {
+      "type": "project",
+      "path": "../PersonReader.Service/PersonReader.Service.csproj",
+      "msbuildProject": "../PersonReader.Service/PersonReader.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "PersonReader.Interface >= 1.0.0"
+      "PersonReader.Interface >= 1.0.0",
+      "PersonReader.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -55,6 +74,9 @@
           "projectReferences": {
             "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Extensibility\\PersonReader.Interface\\PersonReader.Interface.csproj": {
               "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Extensibility\\PersonReader.Interface\\PersonReader.Interface.csproj"
+            },
+            "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Extensibility\\PersonReader.Service\\PersonReader.Service.csproj": {
+              "projectPath": "C:\\Users\\ErangaGayashanBISTEC\\source\\learning\\csharp-interfaces\\Extensibility\\PersonReader.Service\\PersonReader.Service.csproj"
             }
           }
         }
